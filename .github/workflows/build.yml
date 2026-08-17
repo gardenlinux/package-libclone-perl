@@ -9,4 +9,6 @@ jobs:
     with:
       release: ${{ github.ref == 'refs/heads/main' }}
       build_dep: |
-        gardenlinux/package-perl 5.42.2-3gl0+bp1877 
+        gardenlinux/package-perl 5.42.2-3gl0+bp1877
+        gardenlinux/package-libb-cow-perl 0.007-1gl0+bp1877
+        gardenlinux/package-libtaint-runtime-perl 0.3-4gl0+bp1877
